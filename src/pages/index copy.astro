@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'ODIN - Open Decentralized Innovation Network',
+  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,22 +25,24 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Follow ODIN',
-        href: 'https://github.com/odin-initiative',
+        text: 'Get template',
+        href: 'https://github.com/onwidget/astrowind',
         target: '_blank',
         icon: 'tabler:download',
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/ODIN nework-lowrez.webp', alt: 'ODIN Hello Image' }}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      You found ODIN!
+      Free template for <span class="hidden xl:inline">creating websites with</span>
+      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">ODIN</span> is an open, decentralized network that fosters innovation by uniting independent groups to take ideas from inception to launch through education, mentorship, and funding.</span
+        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
+        + Tailwind CSS.</span
       >
       <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
@@ -57,19 +59,19 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with ODIN"
-    subtitle="A network of super ... and learning opportunities and mentorship."
+    title="What you get with AstroWind"
+    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
     items={[
       {
-        title: 'Study Group',
+        title: 'Astro + Tailwind CSS Integration',
         description:
-          'We learn S3',
+          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'S3 Praxis',
+        title: 'Ready-to-use Components',
         description:
-          'We do ...',
+          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
         icon: 'tabler:components',
       },
       {
