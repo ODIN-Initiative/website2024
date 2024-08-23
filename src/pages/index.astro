@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
+// import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
@@ -11,6 +11,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+// import { YouTube } from 'astro-embed';
 
 const metadata = {
   title: 'ODIN - Open Decentralized Innovation Network',
@@ -52,52 +53,7 @@ const metadata = {
 
   <Note />
 
-  <!-- Features Widget *************** -->
 
-  <Features
-    id="features"
-    tagline="Features"
-    title="What you get with ODIN"
-    subtitle="A network of super ... and learning opportunities and mentorship."
-    items={[
-      {
-        title: 'Study Group',
-        description:
-          'We learn S3',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'S3 Praxis',
-        description:
-          'We do ...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
 
   <!-- Content Widget **************** -->
 
