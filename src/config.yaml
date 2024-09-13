@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: ODIN - Open Decentralize Innovation Network
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
