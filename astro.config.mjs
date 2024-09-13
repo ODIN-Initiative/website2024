@@ -26,6 +26,8 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
+  site: 'https://ODIN-Initiative.github.io',
+  base: '/website2024',
 
   integrations: [
     tailwind({

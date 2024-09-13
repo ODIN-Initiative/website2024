@@ -196,7 +196,7 @@ To that end, we will <span class="mb-1 font-bold text-blue-600">experiment with 
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!-- <Steps
     title="Get your dream website up and running in no time with AstroWind."
     items={[
       {
@@ -226,11 +226,15 @@ To that end, we will <span class="mb-1 font-bold text-blue-600">experiment with 
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  /> -->
+  
+  <div class="flex flex-col justify-center items-center h-screen w-full">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Join us for an event</h3>
+  <iframe src="https://calendar.google.com/calendar/embed?src=odinsharedcalendar%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
+  <!-- <Features2
     title="Features2 Widget"
     subtitle="Provides frequently used components for building websites using Tailwind CSS"
     tagline="Components"
@@ -290,7 +294,7 @@ To that end, we will <span class="mb-1 font-bold text-blue-600">experiment with 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Features2>
+  </Features2> -->
 
   <!-- HighlightedPosts Widget ******* -->
 
@@ -306,74 +310,87 @@ To that end, we will <span class="mb-1 font-bold text-blue-600">experiment with 
 
   <FAQs
     title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    subtitle="We get questions all the time.  If you don't see your's below, join the Discord and ask there."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why AstroWind?',
+        title: 'What is ODIN?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          "ODIN stands for Open Decentralized Innovation Network.  We are a network of people focused on problems and solutions to the 'wicked problems' we sense around us.  We are here to help and develop together.",
+      },
+      {
+        title: 'What can I do here?',
+        description:
+          'You can join the discord and discuss topics.  You can come to meetings and contribute to an initiative, or draft and present your own',
       },
       {
         title: 'What do I need to start?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+          "We are totally open.  Anyone can contribute.  ",
       },
       {
-        title: 'How to install the Astro + Tailwind CSS template?',
+        title: "Why should I contribute to ODIN?",
         description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+          "I can only speak for myself, but I love the opportunity to contribute to meaningful projects. I love the skills I'm learning.  And, I love the friendships and sense of shared purpose around here",
       },
       {
-        title: "What's something that you don't understand?",
+        title: 'When does ODIN meet?',
         description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+          "Ah!  Join the Discord for the Events channel and check out the Google Calendar on this site",
       },
       {
-        title: 'What is something that you would like to try again?',
+        title: 'I have a big idea.  Can ODIN help me?',
         description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+          "Absolutely.  Innovators and builders are welcome here",
       },
     ]}
   />
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
+  <!-- <Stats
     stats={[
-      { title: 'Downloads', amount: '132K' },
+      { title: 'Downloads', amount: 'not many' },
       { title: 'Stars', amount: '24.8K' },
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
     actions={[
+{
+        variant: 'primary',
+        text: 'Join ',
+        href: 'https://discord.gg/8qXvqH9vG4',
+        target: '_blank',
+        icon: 'tabler:brand-discord',
+      },
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Follow',
+        href: 'https://twitter.com/odininitiative',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:brand-x',
+      },
+      {
+        variant: 'primary',
+        text: 'Watch',
+        href: 'https://www.youtube.com/@odininitiative',
+        target: '_blank',
+        icon: 'tabler:brand-youtube',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Welcome to the ODIN project!</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+We are glad you are here
     </Fragment>
   </CallToAction>
 </Layout>
