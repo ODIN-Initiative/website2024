@@ -1,7 +1,7 @@
 site:
   name: ODIN - Open Decentralize Innovation Network
-  site: 'https://astrowind.vercel.app'
-  base: '/'
+  site: 'https://ODIN-Initiative.github.io'
+  base: '/website2024'
   trailingSlash: false
 
   # googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
