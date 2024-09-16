@@ -1,5 +1,5 @@
 site:
-  name: ODIN - Open Decentralize Innovation Network
+  name: ODIN - Open Decentralized Innovation Network
   site: 'https://ODIN-Initiative.github.io'
   base: '/website2024'
   trailingSlash: false
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: ODIN - Open Decentralized Innovation Network 
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Experiments with evolutionary organizational principles, and creates ways to scale through connecting high-trust spaces so that innovation networks and their members can flourish."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: ODIN
     images:
       - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+        width: 1129
+        height: 520
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@odininitiative'
+    site: '@odininitiative'
     cardType: summary_large_image
 
 i18n:
