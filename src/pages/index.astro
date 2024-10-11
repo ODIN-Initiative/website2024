@@ -5,6 +5,7 @@ import Note from '~/components/widgets/Note.astro';
 import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+
 // import { YouTube } from 'astro-embed';
 
 const metadata = {
@@ -267,4 +268,27 @@ To that end, we will <span class="mb-1 font-bold text-blue-600">experiment with 
 We are glad you are here
     </Fragment>
   </CallToAction>
+  
+  <CallToAction
+    actions={[
+{
+        variant: 'primary',
+        text: 'CIP-1694 Governance Skills Development',
+        href: 'https://cardano.ideascale.com/c/idea/129824',
+        target: '_blank',
+      },
+
+      {
+        variant: 'primary',
+        text: 'Empowering Cardano Governance: Project-Based Learning Modules for CIP-1694 Voltaire Participation',
+        href: 'https://cardano.ideascale.com/c/idea/131782',
+        target: '_blank',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      ODIN Fund13 proposals!
+    </Fragment>
+  </CallToAction>
+  
 </Layout>
