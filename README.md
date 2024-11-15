@@ -1,3 +1,11 @@
+# Welcome to the ODIN Website Repo!
+
+This repo contains the main website of ODIN.
+
+Related websites:
+- Collaborative Sparks Website: https://github.com/ODIN-Initiative/collaborative-sparks-website
+- S3 Study Group: https://github.com/ODIN-Initiative/study-group
+
 # 🚀 AstroWind
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
