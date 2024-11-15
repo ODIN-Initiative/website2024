@@ -1,6 +1,6 @@
 # Welcome to the ODIN Website Repo!
 
-This repo contains the main website of ODIN.
+This repo contains the main website of ODIN. See the live site here: https://www.odin.eco/
 
 Related websites:
 - Collaborative Sparks Website: https://github.com/ODIN-Initiative/collaborative-sparks-website
