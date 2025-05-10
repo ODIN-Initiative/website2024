@@ -5,6 +5,7 @@ import Note from '~/components/widgets/Note.astro';
 import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Initiatives from '~/components/Initiatives.astro';
 
 // import { YouTube } from 'astro-embed';
 
@@ -75,6 +76,8 @@ const metadata = {
     </Fragment>
   </Hero>
 
+
+  <Initiatives />
   <!-- Note Widget ******************* -->
 
   <Note />
@@ -145,23 +148,7 @@ const metadata = {
     }}
   />
   <!-- Initiative links -->
-  <section class="text-center mb-10">
-    <h2 class="text-2xl font-bold mb-4">Initiative Links</h2>
-    <div class="flex flex-wrap justify-center gap-4">
-      <a href="https://odin-initiative.github.io/study-group/" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
-        Odin Study Group
-      </a>
-      <a href="https://odin-initiative.github.io/collaborative-sparks-website/sparks/accountability-space/" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
-        Accountability Space
-      </a>
-      <a href="https://odin-initiative.github.io/collaborative-sparks-website" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
-        Collaborative Sparks
-      </a>
-      <a href="https://sociocracy30.org/" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">
-        Sociocracy 3.0
-      </a>
-    </div>
-  </section>
+  <Initiatives />
 
   <!-- Content Widget **************** -->
 

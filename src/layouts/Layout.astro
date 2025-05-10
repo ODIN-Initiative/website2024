@@ -9,11 +9,11 @@ import CustomStyles from '~/components/CustomStyles.astro';
 import ApplyColorMode from '~/components/common/ApplyColorMode.astro';
 import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
-import BasicScripts from '~/components/common/BasicScripts.astro';
-import Announcement from '~/components/widgets/Announcement.astro'
+//import BasicScripts from '~/components/common/BasicScripts.astro';
+//import Announcement from '~/components/widgets/Announcement.astro'
 
 // Comment the line below to disable View Transitions
-import { ViewTransitions } from 'astro:transitions';
+//import { ViewTransitions } from 'astro:transitions';
 
 import type { MetaData as MetaDataType } from '~/types';
 
@@ -37,13 +37,12 @@ const { language, textDirection } = I18N;
 
 
     <!-- Comment the line below to disable View Transitions -->
-    <ViewTransitions fallback="swap" />
+    <!-- <ViewTransitions fallback="swap" /> -->
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">
     <slot />
 
-    <BasicScripts />
 
     <style is:global>
       img {
